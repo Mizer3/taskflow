@@ -30,5 +30,4 @@ npm run dev
 
 ## Mise en ligne
 
-- API (Render) : commande de démarrage `npm run start:api`
-- Site (Vercel) : variable d'environnement `VITE_API_URL` = adresse de l'API
+Le site est déployé sur Vercel. En production, l'API est servie par la fonction `api/index.js` (mêmes routes que json-server) et `VITE_API_URL=/api` est défini dans `.env.production`.
