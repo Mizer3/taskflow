@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": "site-esiee",
+      "name": "Refonte site ESIEE-IT",
+      "description": "Nouvelle vitrine pour la rentrée."
+    },
+    {
+      "id": "app-bde",
+      "name": "Application mobile BDE",
+      "description": "Agenda des soirées et billetterie des événements."
+    },
+    {
+      "id": "intranet-rh",
+      "name": "Intranet RH",
+      "description": "Demandes de congés et annuaire des collaborateurs."
+    }
+  ],
+  "tasks": [
+    { "id": "t1", "projectId": "site-esiee", "title": "Maquettes validées", "status": "done", "priority": 1 },
+    { "id": "t2", "projectId": "site-esiee", "title": "Intégrer la page d'accueil", "status": "doing", "priority": 1 },
+    { "id": "t3", "projectId": "site-esiee", "title": "Rédiger les fiches formations", "status": "todo", "priority": 2 },
+    { "id": "t4", "projectId": "app-bde", "title": "Choisir le framework mobile", "status": "done", "priority": 1 },
+    { "id": "t5", "projectId": "app-bde", "title": "Écran de connexion", "status": "done", "priority": 2 },
+    { "id": "t6", "projectId": "app-bde", "title": "Paiement des billets", "status": "todo", "priority": 1 },
+    { "id": "t7", "projectId": "app-bde", "title": "Notifications push", "status": "todo", "priority": 3 },
+    { "id": "t8", "projectId": "intranet-rh", "title": "Recueillir les besoins", "status": "doing", "priority": 2 },
+    { "id": "t9", "projectId": "intranet-rh", "title": "Schéma de la base de données", "status": "todo", "priority": 2 }
+  ]
+}
