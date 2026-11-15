@@ -13,7 +13,6 @@ export function TaskList({ tasks, onCycle, onRemove }: Props) {
   return (
     <ul className="tasks">
       {tasks.map((task) => (
-        // key stable issue des données, jamais l'index
         <TaskItem key={task.id} task={task} onCycle={onCycle} onRemove={onRemove} />
       ))}
     </ul>

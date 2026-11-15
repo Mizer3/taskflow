@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 
 type CardProps = {
   title: string;
-  actions?: ReactNode; // slot nommé
-  children: ReactNode; // slot par défaut
+  actions?: ReactNode;
+  children: ReactNode;
 };
 
 export function Card({ title, actions, children }: CardProps) {
